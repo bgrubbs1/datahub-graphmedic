@@ -59,7 +59,7 @@ GraphMedic is intentionally narrow:
 
 See [docs/data-policy.md](docs/data-policy.md) and [docs/architecture.md](docs/architecture.md) for details.
 
-An interactive, browser-safe replay of the sanitized MCP evidence is included at [docs/demo/index.html](docs/demo/index.html). It is clearly labeled as a captured reviewer preview; the Python application remains the live DataHub integration.
+An [interactive, browser-safe reviewer preview](https://bgrubbs1.github.io/datahub-graphmedic/demo/) replays the sanitized MCP evidence. It is clearly labeled as a captured preview; the Python application remains the live DataHub integration.
 
 ## License
 

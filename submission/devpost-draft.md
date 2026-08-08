@@ -48,6 +48,6 @@ DataHub OSS, DataHub MCP Server, DataHub Python SDK, Python, FastAPI, Pydantic, 
 
 ## Links to fill at handoff
 
-- Public repository: `PENDING`
-- Interactive reviewer preview: `PENDING`
+- Public repository: `https://github.com/bgrubbs1/datahub-graphmedic`
+- Interactive reviewer preview: `https://bgrubbs1.github.io/datahub-graphmedic/demo/`
 - Public demo video: `PENDING`
