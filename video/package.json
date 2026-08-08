@@ -1,0 +1,21 @@
+{
+  "name": "graphmedic-demo-video",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@remotion/cli": "4.0.507",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.507"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "render": "remotion render src/index.ts GraphMedicDemo out/graphmedic-demo.mp4 --codec h264 --crf 18",
+    "typecheck": "tsc --noEmit"
+  }
+}

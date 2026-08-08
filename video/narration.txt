@@ -1,0 +1,15 @@
+Catalog drift is a graph problem. Meet GraphMedic: an evidence-first repair agent for DataHub.
+
+A blank description is not just a blank field. It can hide an unowned dataset, a retired source that is still feeding live consumers, and a large downstream blast radius. GraphMedic turns those relationships into a prioritized, explainable queue.
+
+This demonstration runs against DataHub Open Source. The app searches an explicitly opted-in fictional namespace, inspects full entity metadata, and traces lineage in both directions. The highest-risk asset scores one hundred fifteen because it has no owner, no description, one downstream consumer, and a deprecated upstream dependency.
+
+Every conclusion carries evidence from the official DataHub MCP server. Search discovers candidates. Get entities verifies their metadata. Get lineage measures impact. Approved repairs use mutation tools, followed by a fresh entity read to prove the write.
+
+Privacy is enforced in code, not promised in a slide. An asset must have all three markers: the graphmedic demo namespace, the GraphMedic Demo tag, and a Synthetic classification. Without all three, GraphMedic will neither analyze nor mutate it. The entry uses no employer data, no personal records, no private systems, and no arbitrary browser-supplied identifiers.
+
+Writeback stays human controlled. The server creates a bounded proposal from observed facts. The browser can only choose a current finding and action. A steward previews the exact change, approves it, and GraphMedic verifies the result through DataHub.
+
+The package includes ten automated tests, six fictional assets, five lineage edges, zero privacy-scan findings, Apache licensed source, full setup documentation, and a reusable Agent Skill.
+
+GraphMedic. See the break. Repair with proof.

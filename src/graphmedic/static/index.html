@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GraphMedic — DataHub Catalog Repair Agent</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="brand"><span class="mark">G</span><div><h1>GraphMedic</h1><p>Evidence-first catalog repair agent</p></div></div>
+      <div class="privacy"><span></span>SYNTHETIC DATA ONLY</div>
+    </header>
+    <main>
+      <section class="hero">
+        <div><p class="eyebrow">DATAHUB MCP + APPROVAL-GATED WRITEBACK</p><h2>Find the metadata break.<br><em>See the blast radius.</em></h2><p>GraphMedic traces fictional DataHub assets, ranks stewardship risk, and proposes bounded repairs. Nothing changes until a human approves it.</p></div>
+        <button id="scan"><b>Run catalog triage</b><span>Search → inspect → trace lineage</span></button>
+      </section>
+      <section class="metrics" id="metrics">
+        <article><span>ASSETS SCANNED</span><b>—</b></article><article><span>FINDINGS</span><b>—</b></article><article><span>LINEAGE EDGES</span><b>—</b></article><article><span>CRITICAL</span><b>—</b></article>
+      </section>
+      <div class="layout">
+        <section><div class="section-title"><div><span>PRIORITIZED QUEUE</span><h3>Catalog findings</h3></div><span id="status">Ready</span></div><div id="findings" class="empty">Run catalog triage to build a verified repair queue.</div></section>
+        <aside><div class="section-title"><div><span>LIVE EVIDENCE</span><h3>DataHub MCP trail</h3></div></div><div id="evidence" class="evidence"><p>Tool calls will appear here with their latency and verification status.</p></div><div class="boundary"><span>HARD SAFETY BOUNDARY</span><b>3 markers required</b><ul><li>graphmedic_demo namespace</li><li>GraphMedicDemo tag</li><li>SYNTHETIC classification</li></ul></div></aside>
+      </div>
+    </main>
+    <dialog id="confirm"><form method="dialog"><span>WRITE PREVIEW</span><h3>Approve this bounded repair?</h3><p id="preview"></p><div><button value="cancel">Cancel</button><button id="approve" value="approve">Approve + verify</button></div></form></dialog>
+    <script src="/app.js"></script>
+  </body>
+</html>
